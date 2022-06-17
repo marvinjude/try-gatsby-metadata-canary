@@ -15,7 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^4.16.0",
+    "gatsby": "^4.17.0-alpha-gatsby-metadata.17",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   }
