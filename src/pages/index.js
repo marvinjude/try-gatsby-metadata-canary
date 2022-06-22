@@ -3,25 +3,34 @@ import { Link } from "gatsby";
 
 const pageStyles = {
   color: "#232129",
-  padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  flexDirection: "column",
+  height: "100vh",
+};
+
+const headingStyles = {
+  fontSize: "5rem",
+  fontWeight: "bold",
+  textAlign: "center",
+  margin: "0",
+};
+
+const linksStyles = {
+  display: "flex",
+  justifyContent: "center",
+  gap: "1rem",
+  alignItems: "center",
+  margin: "0",
+  padding: "1rem",
 };
 
 export function head(props) {
   return (
     <Fragment>
       <title>Home</title>
-      <link rel="canonical" href="https://www.example.com/about" />
-      <link
-        rel="alternate"
-        hrefLang="en"
-        href="https://www.example.com/about"
-      />
-      <link
-        rel="alternate"
-        hrefLang="es"
-        href="https://www.example.com/es/about"
-      />
     </Fragment>
   );
 }
@@ -29,7 +38,32 @@ export function head(props) {
 const IndexPage = (props) => {
   return (
     <main style={pageStyles}>
-      Home Page <Link to="/hey">hey</Link>
+      <img
+        alt="gatsby logo"
+        style={{ height: "5rem", width: "5rem" }}
+        src="https://www.gatsbyjs.com/Gatsby-Monogram.svg"
+      ></img>
+      <h1 style={headingStyles}>
+        <span
+          style={{
+            color: "#542c85",
+          }}
+        >
+          Gatsby
+        </span>
+        <span
+          style={{
+            color: "#f67300",
+          }}
+        >
+          Places
+        </span>
+      </h1>
+      <div style={linksStyles}>
+        <Link to="/sales">Sales</Link>
+        <Link to="/pricing">Pricing</Link>
+        <Link to="/careers">Careers</Link>
+      </div>
     </main>
   );
 };

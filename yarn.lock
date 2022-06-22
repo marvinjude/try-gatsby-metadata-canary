@@ -5659,10 +5659,10 @@ gatsby-worker@1.17.0-next.0:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-gatsby@^4.17.0-alpha-gatsby-metadata.17:
-  version "4.17.0-alpha-gatsby-metadata.17"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-4.17.0-alpha-gatsby-metadata.17.tgz#650d8c39e02718ebdda6b0e9df25c4a1a498b084"
-  integrity sha512-chcuBZXUDB76FlYo3q0PRrB2mi5OkVHYBwacBgKFXoc/2z1PG/FQaWQqbfhj1LqbxQINLsOz7Dedby6rxZ7ANg==
+gatsby@^4.17.0-alpha-gatsby-metadata.23:
+  version "4.17.0-alpha-gatsby-metadata.23"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-4.17.0-alpha-gatsby-metadata.23.tgz#1df9e3b62e7e08aa5f2b42f2536acc24e9d4151d"
+  integrity sha512-dDXm+o1nPsttetdemPn/zYhOe2yU1SltB+SFfcxkus2KQtm29RAU5DelkWjfRBB2PRvzH6/n7jK8+ZHaYyAR+g==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
